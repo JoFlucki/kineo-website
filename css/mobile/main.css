@@ -1,0 +1,38 @@
+/*Main CSS, applies to whole website if in mobile viewport*/
+html {
+    font-family: 'Open Sans Semibold';
+    background-color: #EFEFEF;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Titillium Bold';
+    font-size: 42px;
+    line-height: 36px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Titillium Bold';
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Titillium Semibold';
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
