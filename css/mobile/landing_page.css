@@ -1,3 +1,10 @@
+.home-block.home-block-ho{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: #FFF;
+}
+
 .home-block-ho-row2{
     display: none;
 }
@@ -10,17 +17,24 @@ nav{
 .landing-page-doodle-container{
     display: none;
 }
+.home-block-pre {
+    margin-top: 50px;
+}
 .home-block-pre img{
     width: 50%;
+    max-width: 200px;
+    margin-bottom: 50px;
 }
 .home-block{
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .home-block-pre-row.row2{
     margin-top: 50px;
 }
 .pre-block.pre-block3 img{
     width: 40%;
+    max-width: 150px;
 }
 .pre-block{
     display: flex;
@@ -30,11 +44,26 @@ nav{
     margin-bottom: 80px;
 }
 
+.home-block.home-block-cla, .home-block.home-block-fe  {
+    margin-bottom: 50px;
+}
+.home-block.home-block-fe .home-block-fe-row{
+    margin-bottom: 20px;
+}
+
+.home-block.home-block-sup .home-block-sup-row, .sup-block{
+    margin-bottom: 20px;
+}
+.home-block.home-block-sup{
+    margin-bottom: 100px;
+}
 .home-block.home-block-va {
-    height: 1400px;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+}
+.comity-presentation{
+    margin-bottom: 50px;
 }
 
 .home-block-va-row {

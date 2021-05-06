@@ -14,17 +14,17 @@
         </div>
         <div class="footer-content">
             <div class="footer-content-row">
-                |
+                <div>|</div>
                 <div><a href="https://www.migros.ch/fr.html">Migros</a></div>
                 <div><a href="https://www.newyorker.de/fr/">New Yorker</a></div>
             </div>
             <div class="footer-content-row">
-                |
+                <div>|</div>
                 <div><a href="https://www.facebook.com/"><img src="res/img/facebook_logo.png">Facebook</a></div>
                 <div><a href="https://www.instagram.com/"><img src="res/img/instagram_logo.png">Instagram</a></div>
             </div>
             <div class="footer-content-row">
-                |
+                <div>|</div>
                 <div>direction@kineo.ch</div>
                 <div>032 827 38 82</div>
                 <div>Rue de la gare, 2093 Yverdons-les-bains</div>

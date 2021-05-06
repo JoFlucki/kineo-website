@@ -36,3 +36,86 @@ h3 {
 body {
     margin: 0px;
 }
+
+footer {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #050303;
+    height: 300px;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row.row1 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+
+.footer-row.row2 {
+    flex-grow: 1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: flex-start;
+}
+
+.footer-row.row2 .footer-content-row div {
+    margin-left: 10px;
+}
+
+.footer-row.row3 {
+    padding-top: 10px;
+    border-top: 3px solid white;
+}
+
+.footer-row.row1 img {
+    height: 30px;
+}
+
+.footer-row.row1 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-titles {
+    display: none;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-content-row img {
+    height: 20px;
+}
+
+.footer-content-row a {
+    display: flex;
+    flex-direction: row;
+}
+.footer-content-row div:nth-child(1){
+    display: none;
+}
