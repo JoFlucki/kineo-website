@@ -117,6 +117,13 @@ nav{
     margin: 0px;
 }
 
-.home-block-co img,.home-block-cla img, .home-block-fe img, footer img{
+.home-block-co img, .home-block-fe img, footer img{
     display: none;
+}
+.home-block-cla-row.row1 img{
+ display: none;
+}
+
+.home-block-cla-row.row2 img{
+    width: 100%;
 }

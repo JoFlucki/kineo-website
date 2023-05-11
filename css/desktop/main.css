@@ -10,12 +10,21 @@ html {
     background-color: #EFEFEF;
     scroll-behavior: smooth;
     max-width: 100%;
+}
+
+.overflow-wrapper {
+    position: relative;
     overflow-x: hidden;
 }
 
 p {
     font-size: 18px;
     margin: 0px;
+}
+
+a:link,
+a:visited {
+    color: black;
 }
 
 h1 {
@@ -49,15 +58,14 @@ body {
 .menu-item a img {
     height: 50px;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     background-color: #050303;
     height: 80px;
-    position: fixed;
     width: 100%;
     z-index: 1;
+    position: fixed;
 }
 
 .navbar {
@@ -159,6 +167,7 @@ footer a {
 }
 
 .footer-row.row1 a {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -190,4 +199,5 @@ footer a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: white;
 }

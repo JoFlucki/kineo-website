@@ -13,23 +13,23 @@
             <div>Contact</div>
         </div>
         <div class="footer-content">
-            <div class="footer-content-row">
-                <div>|</div>
-                <div><a href="https://www.migros.ch/fr.html">Migros</a></div>
-                <div><a href="https://www.newyorker.de/fr/">New Yorker</a></div>
+		  <div class="footer-content-row">
+		  	    <div>|</div>
+                <div></div>
+                <div></div>
             </div>
             <div class="footer-content-row">
                 <div>|</div>
-                <div><a href="https://www.facebook.com/"><img src="res/img/facebook_logo.png">Facebook</a></div>
-                <div><a href="https://www.instagram.com/"><img src="res/img/instagram_logo.png">Instagram</a></div>
+			  <div><a href="https://www.instagram.com/kineo_danceschool/">instagram</a></div>
+                <div></div>
             </div>
             <div class="footer-content-row">
                 <div>|</div>
-                <div>direction@kineo.ch</div>
-                <div>032 827 38 82</div>
-                <div>Rue de la gare, 2093 Yverdons-les-bains</div>
+                <div>direction@kineo-school.ch</div>
+                <div></div>
+                <div>St-Roch 36, 1400 Yverdon-les-Bains</div>
             </div>
         </div>
     </div>
-    <div class="footer-row row3">&#169; Copyright 2021 - 2021 Kineo</div>
+    <div class="footer-row row3">&#169; Copyright 2021 - <?php echo date("Y"); ?> Kineo</div>
 </footer>

@@ -75,6 +75,11 @@
     width: auto;
 }
 
+.home-block-pre-row.row1 div {
+    background-color: rgba(239, 239, 239, 0.8);
+    height: fit-content;
+}
+
 .home-block-pre-row.row1 p {
     width: 800px;
 }
@@ -84,7 +89,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
 }
 
 .home-block-pre-row.row2 .pre-block img {
@@ -248,7 +253,7 @@
 
 .comity-presentation img {
     padding: 20px;
-    height: 400px;
+    height: 25vw;
 }
 
 .right-arrow {
