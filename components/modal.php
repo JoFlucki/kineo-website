@@ -12,6 +12,8 @@
                 Date : <span style="color:#886ce4;">3 juin de 14:00-22:00</span>
                 <br>
                 Lieu : <span style="color:#886ce4;">Kiosque à musique à Yverdon-les-Bains</span>
+                <br>
+                Rendez-vous sur notre <a style="color:#886ce4;" href="https://www.instagram.com/kineo_danceschool/"> page Instagram</a> pour plus d'infos.
             </div>
             <div id="close-button">retourner sur le site</div>
         </div>
