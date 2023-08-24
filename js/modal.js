@@ -15,4 +15,4 @@ var intervalId = setInterval(function () {
     //alert("Interval reached every 5s")
 }, 5000);
 
-var displayModal = true;
+var displayModal = false;

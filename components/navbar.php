@@ -10,8 +10,8 @@
                 <div class="menu-item"><a href="index.php#support">Soutien</a></div>
             </div>
         </div>
-        <div class="navbar navbar-right">
+        <!-- <div class="navbar navbar-right">
             <button class="event-button"  onClick="showModal()">KINEO FESTIVAL</button>
-        </div>
+        </div> -->
     </nav>
 </div>
