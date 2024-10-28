@@ -1,6 +1,6 @@
 /*Main CSS, applies to whole website if in mobile viewport*/
 html {
-        font-family: "Poppins", "Roboto", "Helvetica", sans-serif;
+    font-family: "Poppins", "Roboto", "Helvetica", sans-serif;
     background-color: #EFEFEF;
     scroll-behavior: smooth;
     max-width: 100%;
@@ -12,31 +12,29 @@ p {
     margin: 0px;
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     color: black;
 }
 
 h1 {
     font-family: 'Nunito';
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 36px;
+    font-weight: 800;
+    font-size: 2rem;
     margin: 0px;
 }
 
 h2 {
     font-family: 'Nunito';
     font-weight: 700;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 1.75rem;
     margin: 0px;
 }
 
 h3 {
     font-family: 'Nunito';
     font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 1.25rem;
     margin: 0px;
 }
 
@@ -123,6 +121,7 @@ footer a {
     display: flex;
     flex-direction: row;
 }
-.footer-content-row div:nth-child(1){
+
+.footer-content-row div:nth-child(1) {
     display: none;
 }
