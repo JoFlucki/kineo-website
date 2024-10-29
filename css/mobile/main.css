@@ -9,7 +9,7 @@ html {
 
 p {
     font-size: 18px;
-    margin: 0px;
+    margin-bottom: 8px;
 }
 
 a:link,
@@ -20,22 +20,26 @@ a:visited {
 h1 {
     font-family: 'Nunito';
     font-weight: 800;
-    font-size: 2rem;
-    margin: 0px;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 16px;
+
 }
 
 h2 {
     font-family: 'Nunito';
     font-weight: 700;
-    font-size: 1.75rem;
-    margin: 0px;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-family: 'Nunito';
     font-weight: 600;
-    font-size: 1.25rem;
-    margin: 0px;
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 body {
@@ -124,4 +128,12 @@ footer a {
 
 .footer-content-row div:nth-child(1) {
     display: none;
+}
+
+
+.card {
+    background: white;
+    box-shadow: 0px 0px 50px #00000030;
+    padding: 1em;
+    border-radius: 16px;
 }
