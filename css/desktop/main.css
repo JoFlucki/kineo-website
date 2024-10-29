@@ -20,11 +20,6 @@ p {
     margin: 0px;
 }
 
-a:link,
-a:visited {
-    color: black;
-}
-
 h1 {
     font-family: 'Nunito';
     font-weight: 800;
@@ -51,71 +46,65 @@ body {
     font-size: 1rem;
 }
 
-/* navbar-related CSS*/
 
-.menu-item a img {
-    height: 50px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #050303;
-    height: 80px;
-    width: 100%;
-    z-index: 1;
-    position: fixed;
-}
-
-.navbar {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
-}
-
-.navbar-left {
-    padding-left: 40px;
-    justify-content: start;
-    align-items: center;
-}
-
-.navbar-right {
-    padding-right: 40px;
-    justify-content: end;
-    align-items: center;
-}
-
-.menu-item {
-    color: white;
-}
-
-.menu-item-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar-left .menu-item-list .menu-item {
-    margin-right: 75px;
-}
-
-.navbar-right .menu-item-list .menu-item {
-    margin-left: 50px;
-}
-
-.menu-item-list a,
-.menu-item-list a:visited {
-    font-size: 24px;
-    color: white;
+a,
+a:visited {
+    color: black;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-.menu-item-list a span {
+a span {
     font-size: 1.5em;
 }
 
+/* navbar-related CSS*/
+.menu-item a img {
+    height: 2em;
+}
+
+.navbar-logo {
+    margin-right: 3em;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0px 0px 50px #00000030;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-radius: 1000px;
+    padding: 1em 2em 1em 2em;
+}
+
+
+.navbar-left .menu-item {
+    margin-right: 75px;
+}
+
+
+.navbar-right .menu-item {
+    margin-left: 50px;
+}
+
+
+
+/* Footer */
 footer {
     font-size: 18px;
     display: flex;
