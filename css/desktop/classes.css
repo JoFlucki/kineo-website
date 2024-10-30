@@ -5,6 +5,11 @@
     flex-direction: column;
 }
 
+#main-column p {
+    max-width: 50%;
+    min-width: 500px;
+}
+
 
 /* Details row */
 #details-row {
