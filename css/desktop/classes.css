@@ -1,0 +1,27 @@
+/* Main column */
+#main-column {
+    margin: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Details row */
+#details-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 2rem;
+}
+
+#details-row img {
+    width: 50%;
+    border-radius: 32px;
+}
+
+/* Details column */
+#details-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

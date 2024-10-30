@@ -59,7 +59,9 @@ footer {
     color: white;
 }
 
-footer a {
+footer a,
+footer a:visited,
+footer a:link {
     text-decoration: none;
     color: white;
 }
@@ -93,6 +95,7 @@ footer a {
 
 .footer-row.row1 img {
     height: 30px;
+    max-width: 40%;
 }
 
 .footer-row.row1 a {

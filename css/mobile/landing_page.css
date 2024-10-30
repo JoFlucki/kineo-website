@@ -26,6 +26,32 @@ nav {
     align-self: center;
 }
 
+.home-block-cla .card{
+    padding: 0px;
+    padding-bottom: 2rem;
+}
+
+.home-block-cla-row.row2 .cla-block img{
+    margin: 0px;
+    border-radius: 16px 16px 0px 0px;
+}
+.home-block-cla-row.row2 .cla-block *:nth-child(2) {
+    margin-top: 2rem;
+}
+
+.home-block-cla-row.row2 .cla-block * {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.home-block-cla-row.row2 .cla-block a {
+    text-decoration: none;
+}
+
+.home-block-cla-row.row2 .cla-block *:last-child {
+    margin-bottom: 1rem;
+}
+
 .home-block-cla .row2 {
     display: flex;
     flex-direction: column;
