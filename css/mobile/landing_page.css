@@ -98,6 +98,11 @@ nav {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    
+    background-image: url("../../res/img/flow_background-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .comity-presentation {
@@ -163,7 +168,7 @@ nav {
 }
 
 .home-block-co img {
-    width: 80vw;
+    width: 100%;
     border-radius: 16px;
     margin-bottom: 1em;
 }
