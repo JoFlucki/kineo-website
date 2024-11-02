@@ -170,11 +170,16 @@
 
 /* Values */
 
+
 .home-block.home-block-va {
     height: auto;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    background-image: url("../../res/img/flow_background-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home-block-va-row {
@@ -251,6 +256,14 @@
     background-color: #731717;
     background-color: #731717;
     padding-bottom: 5%;
+    background-image: url("../../res/img/coaches_background.webp");
+    background-position: center;
+    background-repeat: round;
+    background-size:contain;
+    margin-top: 4em;
+    padding-top: 4em;
+    padding-bottom: 10em;
+
 }
 
 .triangle-code {
@@ -278,9 +291,16 @@
 .comity-presentation {
     display: flex;
     align-items: center;
-    left: 10%;
+    left: 20%;
     position: absolute;
     transition: left 1s;
+    width: 60%;
+}
+
+.comity-presentation.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    
 }
 
 .comity-presentation.left {
@@ -297,7 +317,6 @@
 }
 
 .comity-description {
-    width: 50vw;
     text-align: justify;
 }
 
