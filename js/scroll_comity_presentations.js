@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $index = 0;
-    $maxIndex = 2;
+    $maxIndex = 1;
     $(".left-arrow").click(function() {
         if ($index > 0) {
             if ($index == $maxIndex)
