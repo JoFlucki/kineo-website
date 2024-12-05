@@ -116,7 +116,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     background-color: #050303;
-    height: 300px;
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -139,7 +138,6 @@ footer a {
 }
 
 .footer-row.row2 {
-    flex-grow: 1;
     padding-bottom: 30px;
     padding-top: 30px;
     justify-content: flex-start;
